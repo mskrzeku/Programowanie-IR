@@ -90,18 +90,6 @@ def Dane(i):
     marker_położenia.set_data(x[i], y[i])
     return wykres_rzutu, marker_położenia
 
-
-
-# Plot of trajectory
-#fig, ax = plt.subplots(tight_layout = True)
-#wykres_rzutu = ax.plot([], [], '-b')
-#ax.plot(x, y, "r-", label="Numerical")
-#ax.set_title(r"Projectile path")
-#ax.set_aspect("equal")
-#ax.grid(b=True)
-#ax.legend()
-
-
 #animacja ma nieliniowy przebieg czasu, by trwała krócej, oraz by dla dużych parametrów początkowych
 #ostatnia faza ruchu ,,opadanie" trwało krócej.
 
